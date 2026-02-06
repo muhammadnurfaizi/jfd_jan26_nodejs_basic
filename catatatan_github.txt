@@ -11,12 +11,19 @@ Fungsi  utama Github:
 
 Status dalam git:
 U / Untracked = File yang belom terdeteksi oeleh sistem git
-A / 
+M / Modifiled = File yang sudah existing, di modifikasi/dilakukan perubahan isi file
+A / Addeed    = File yang sudah masuk/strage add
 Langkah-langkah me girim source code ke github:
 1. add      = Keluar 
 2. Commit   = Proses
 3. Push     = Masuk
 
 Langkah-langkah menghubungkan repo baru di lokal & server github
-1. git init => mendaftarkan repo lokal kita sebagai repo yang sudah memakai sisystem git
-2. git add. => titik artinya semua
+git init => mendaftarkan repo lokal kita sebagai repo yang sudah memakai sisystem git
+git branch -M main = mengganti cabang utama dengan nama main
+git remote add origin https://github.com/muhammadnurfaizi/jfd_jan26_nodejs_basic.git = menghubungkan repo lokal dengan 
+git config --global user.email "faiz130201@gmail.com
+git config --global user.name"muhammadnurfaizi"
+git add. => menambah semua file
+git.commit -m "pesan commit"
+git push -u origin main = finalisasi pengiriman source code
