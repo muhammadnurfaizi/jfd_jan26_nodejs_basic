@@ -27,3 +27,9 @@ git config --global user.name"muhammadnurfaizi"
 git add. => menambah semua file
 git.commit -m "pesan commit"
 git push -u origin main = finalisasi pengiriman source code
+
+jika push kedua kali cukup ketik perintah git push
+
+Syarat kolaborasi:
+1. invite developer ke repo kita
+2. narik perubahan dari collaboratior lain: git pull
