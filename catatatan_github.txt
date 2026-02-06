@@ -1,0 +1,22 @@
+github adalah sebuah website tempat berbagi project bermacam-macam source code
+
+selain Github (microsoft)
+ada gitlab, bitbucket (atlassian), gitkreker
+
+Fungsi  utama Github:
+1.  Menyimpan source code secara online/cloud
+2.  Kalaborasi antar developer
+3.  tools/alat untuk menarik source code ke server
+4.  versioning > bisa kembali ke versi sebelumnya
+
+Status dalam git:
+U / Untracked = File yang belom terdeteksi oeleh sistem git
+A / 
+Langkah-langkah me girim source code ke github:
+1. add      = Keluar 
+2. Commit   = Proses
+3. Push     = Masuk
+
+Langkah-langkah menghubungkan repo baru di lokal & server github
+1. git init => mendaftarkan repo lokal kita sebagai repo yang sudah memakai sisystem git
+2. git add. => titik artinya semua
